@@ -1,0 +1,33 @@
+name: hydrated
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: 3.0.5
+
+dependencies:
+  bloc: ^8.1.0
+  firebase_auth: ^3.7.0
+  firebase_core: ^1.21.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^1.0.4
+  flutterfire_ui: ^0.4.3+8
+  google_sign_in: ^5.4.1
+  intl: ^0.17.0
+
+dev_dependencies:
+  bloc_test: ^9.1.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  generate: true
